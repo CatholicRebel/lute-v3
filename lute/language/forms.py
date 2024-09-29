@@ -74,6 +74,7 @@ class LanguageForm(FlaskForm):
         "Word characters (default: all Unicode letters and marks)"
     )
 
+    # this is just to test run my ability to edit lol, has nothing to do with the rest of the code
     def validate_dictionaries(self, field):  # pylint: disable=unused-argument
         "Dictionaries must be valid."
 
